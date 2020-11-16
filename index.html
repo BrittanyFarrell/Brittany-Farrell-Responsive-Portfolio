@@ -1,3 +1,6 @@
+<!-- /* eslint-disable indent */
+/* eslint-disable strict */ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +13,10 @@
     <header class="header">
             <h1>Brittany Farrell</h1>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#portfolio"><li>Portfolio</li></a>
+                <a href="#contact-form"><li>Contact</li></a>
             </ul>
         
     </header>
@@ -22,8 +25,8 @@
 
             <div class="inner-bookshelf">
                 <section class="align-right">
-                    <h1>Writer and Software Developer</h1>
-                    <p>Brittany farrell is a web developer and freelance writer working remotely from her home in Atlanta, Georgia. After logging countless hours writing copy for blogs and web pages, she decided to add to her skill set by becoming a software engineer.</p>
+                    <h1 id="home">Writer and Software Developer</h1>
+                    <p>Brittany farrell is a web developer and freelance writer working remotely from her home in Atlanta, Georgia. After logging countless hours creating content for blogs and web pages, she decided to add to her skill set by becoming a software engineer.</p>
 
                     <a href="#contact-form"><button>Contact Her</button></a>
                 </section>
@@ -32,16 +35,34 @@
             </div>
 <br><br>
             <section>
-            <h3>About Brittany</h3>
-            <p>I’m currently enrolled in Thinkful’s Engineering Immersion Program and working towards my goal of becoming a full stack engineer. I'm in love with the satisfaction that comes with watching my code work the way it was intended to and I look forward to joining a capable team someday.</p>
-            
-            <p>When I was younger, I spent a fair amount of time coding simple VNGs on Ren'py. Other things I enjoy include:</p>
+            <h3 id="about">About Brittany</h3>
 
+            <h4>Career Advancement</h4>
+            <p>Currently enrolled in Thinkful’s Engineering Immersion Program, Brittany is working towards her goal of becoming a full stack engineer.</p> 
+            
+            <div>
+            <p><em>"Found out I'm in love with the satisfaction that comes with watching my code work the way it was intended to. I'm excited about this new chapter and I look forward to joining a capable team someday."</em></p>
+
+            <p><em>- Brittany Farrell</em></p>
+            </div>
+            
+            <h4>Hobbies</h4>
+            <p>When she was younger, spent her free time coding simple VNGs on Ren'py. Today, her interests have expanded to include ceramic art, crochet, spoken word poetry, and christian hip hop.</p>
+
+            <h4>List of Services</h4>
+            <p>Contact her for any of the products or services listed below.</p>
             <ol>
-                <li>Ceramic Art</li>
-                <li>Crochet</li>
-                <li>Spoken Word Poetry</li>
-                <li>Christian Hip Hop</li>
+                <li>Fully Responsive Custom Websites</li>
+                <p>Market your products, services, or self with a customized website like the ones displayed <a href="#">here</a></p>
+
+                <li>Original Website Copy</li>
+                <p>Make your website more user friendly by hiring a proffesional to write the copy for your main webpages</p>
+
+                <li>Personalized Articles and Blog Posts</li>
+                <p>Increase user traffic by hiring a proffesional to write content for your website.</p>
+
+                <li>Software Development</li>
+                <p></p>
             </ol>
 
             <p>If you're looking for a new developer to help with a project or join your staff, then feel free to contact me. I'm excited to see all the things I will create with my future coworkers.</p>
@@ -49,9 +70,16 @@
 <br><br> 
 
         <section>
-            <h3>Portfolio</h3>
-            <p>Coming Soon</p>
-            <p></p>
+            <h3 id="portfolio">Portfolio</h3>
+
+            <h4>Websites</h4>
+
+
+            <h4>Applications</h4>
+
+
+            <h4>Articles</h4>
+
         </section>
 
         <section>
@@ -90,6 +118,9 @@
     </main>
     <footer>
         &copy; Brittany N Farrell
+        <a href="" target="_blank"><img src="images/email.png" alt="Send an emil" width="20%"></a>
+        <a href="" target="_blank"><img src="images/github.png" alt="View GitHub" width="20%"></a>
+        <a href="" target="_blank"><img src="images/linkedin.png" alt="View LinkedIn" width="20%"></a>
     </footer>
 </body>
 </html>
